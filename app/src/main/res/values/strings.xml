@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Study application</string>
+    <string name="my_vehicle">My vehicle</string>
+    <string name="audi_e_tron_sportback">Audi e-tron Sportback</string>
+    <string name="kilometre_left">KILOMETRE LEFT</string>
+    <string name="charged">CHARGED</string>
 </resources>
