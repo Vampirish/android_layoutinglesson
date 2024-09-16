@@ -363,17 +363,60 @@
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
 
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="7dp"
+        android:src="@drawable/active_box"
+        app:layout_constraintTop_toBottomOf="@id/scroll"
+        app:layout_constraintStart_toStartOf="@id/user_view"
+        app:layout_constraintEnd_toEndOf="@id/user_view"/>
+
+    <ImageView
+        android:id="@+id/user_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_user_menu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/scroll"
+        app:layout_constraintEnd_toStartOf="@id/map_view"/>
+    
+    <ImageView
+        android:id="@+id/map_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_map_menu"
+        app:layout_constraintTop_toBottomOf="@id/scroll"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/user_view"
+        app:layout_constraintEnd_toStartOf="@id/charger_view"/>
+
+    <ImageView
+        android:id="@+id/charger_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_charger_menu"
+        app:layout_constraintTop_toBottomOf="@id/scroll"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/map_view"
+        app:layout_constraintEnd_toStartOf="@id/settings_view"/>
+
+    <ImageView
+        android:id="@+id/settings_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_settings_menu"
+        app:layout_constraintTop_toBottomOf="@id/scroll"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/charger_view"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:rotation="90"
+        android:layout_marginTop="9dp"
+        android:src="@drawable/ic_settings_menu"
+        app:layout_constraintEnd_toEndOf="@id/settings_view"
+        app:layout_constraintTop_toTopOf="@id/settings_view"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
-
-
-
-
-
-
-
-
-
-
-
-
-
