@@ -7,5 +7,7 @@
     <color name="main_light">#33284E</color>
     <color name="title_color">#E6DAFF</color>
     <color name="text_color">#D9C8FF</color>
-    <color name="text_color_darker">#A1D9C8FF</color>
+    <color name="description_color">#A1D9C8FF</color>
+    <color name="ports_color">#A680FA</color>
+    <color name="less_ports_color">#F5CA31</color>
 </resources>

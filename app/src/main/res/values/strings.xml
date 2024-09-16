@@ -4,4 +4,16 @@
     <string name="audi_e_tron_sportback">Audi e-tron Sportback</string>
     <string name="kilometre_left">KILOMETRE LEFT</string>
     <string name="charged">CHARGED</string>
+    <string name="nearby_chargers">Nearby Chargers</string>
+    <string name="netherlands_amsterdam">Netherlands, Amsterdam <font color="#8E63EE"><u>Change Location</u></font></string>
+    <string name="charge_point_station1">ChargePoint Station 1</string>
+    <string name="charge_point_station2">ChargePoint Station 2</string>
+    <string name="charge_point_station3">ChargePoint Station 3</string>
+    <string name="street_pulo25">STREET PULO 25</string>
+    <string name="street_srna_74">STREET SRNA 74</string>
+    <string name="street_adas_123_123">STREET ADAS 123 123</string>
+    <string name="amsterdam_netherlands">Amsterdam, Netherlands</string>\
+    <string name="ports_available8">8 Ports Available</string>
+    <string name="ports_available2">2 Ports Available</string>
+    <string name="ports_available5">5 Ports Available</string>
 </resources>

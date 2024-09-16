@@ -20,6 +20,9 @@
     <style name="H_14" parent="FontStyle">
         <item name="android:textSize">14sp</item>
     </style>
+    <style name="H_12" parent="FontStyle">
+        <item name="android:textSize">12sp</item>
+    </style>
     <style name="H_9" parent="FontStyle">
         <item name="android:textSize">9sp</item>
     </style>
