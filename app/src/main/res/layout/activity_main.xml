@@ -177,6 +177,7 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     android:layout_marginTop="26dp"
                     android:layout_marginStart="26dp"
+                    android:layout_marginEnd="8dp"
                     android:text="@string/charge_point_station1"
                     android:textColor="@color/text_color" />
 
@@ -248,6 +249,7 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     android:layout_marginTop="26dp"
                     android:layout_marginStart="26dp"
+                    android:layout_marginEnd="8dp"
                     android:text="@string/charge_point_station2"
                     android:textColor="@color/text_color" />
 
@@ -319,6 +321,7 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     android:layout_marginTop="26dp"
                     android:layout_marginStart="26dp"
+                    android:layout_marginEnd="8dp"
                     android:text="@string/charge_point_station3"
                     android:textColor="@color/text_color" />
 
